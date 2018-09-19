@@ -36,6 +36,22 @@ nav {
     list-style-type: none;
     text-align: right;
 }
+ul {
+   list-style-type: none; 
+    
+}
+li {
+    padding: 5%;
+}
+nav a{
+    list-style-type: none;
+}
+h1 a{
+    color:#FAEBD7; 
+}
+ h2 a {
+    color:black;
+}
 nav a:visited {
 color:#FAEBD7;
     text-decoration: none;
@@ -50,12 +66,13 @@ nav a:active {
 /*articles*/
 main {
     background-color:#FAEBD7;
-    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 article {
     padding: 5%;
     margin: 5%;
-    margin-top: 5%;
+    
     background-color: white;
     color:black;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -82,4 +99,14 @@ article {
     color:dimgrey;
     margin-top: -5%;
     padding-top: 5%;
+}
+p a:visited {
+    color:black;
+}
+p a:active {
+    color:  #DEB887;
+}
+p a:hover {
+    color: #6495ED;
+    text-decoration: underline;
 }
