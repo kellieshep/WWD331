@@ -133,5 +133,11 @@ p a:hover {
         margin: 10%;
         font-size: 1.5em;
     }
-    
+    .post-content h2 {
+        margin-bottom: 10%;
+    }
+    .post-content img {
+        width:35%;
+        margin: auto;
+    }
 }
