@@ -7,15 +7,21 @@ body { max-width: 100%;
 }
 
 header, nav, main, footer {
-  max-width: 100% ; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views*/
+  max-width: 100% ; 
 }
 /*header*/
 header {
     color:#FAEBD7;
-    background-color:#6495ED;}
-h1, li {
+    background-color:#6495ED;
+    padding: 5%;
+    text-align: right;
+    text-decoration: none;
+    list-style-type: none;
+}
+a:link {
     text-align: left;
     text-decoration: none;
+    
 }
 h1, h2 {
     font-family: 'Lora', serif;
@@ -23,22 +29,28 @@ h1, h2 {
     color: black;
    
 }
-h2:link {
-    color:black;
+h2 a:link{  color:black;
 }
-main {
-    background-color:#FAEBD7;
+/*nav*/
+nav {
+    list-style-type: none;
+    text-align: right;
 }
-nav li:visited {
+nav a:visited {
 color:#FAEBD7;
     text-decoration: none;
 }
-nav li:hover{
+nav a:hover{
     color:white;
     text-decoration: underline;
 }
-nav li:active {
+nav a:active {
     color: #DEB887;
+}
+/*articles*/
+main {
+    background-color:#FAEBD7;
+    margin-top: 5%;
 }
 article {
     padding: 5%;
@@ -46,24 +58,28 @@ article {
     margin-top: 5%;
     background-color: white;
     color:black;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .post-content h2 {
     color:black;
     text-decoration: none;
 }
-.post-content h2:hover {
+.post-content h2 a:hover {
     text-decoration: underline;
 }
-.post-content h2:active {
+.post-content h2 a:active {
     color: #DEB887;
 }
 .post-content img {
     width: 70%;
     height: 40%;
-    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
 }
 .post-date {
     color:dimgrey;
-    
+    margin-top: -5%;
     padding-top: 5%;
 }
