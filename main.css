@@ -1,11 +1,8 @@
 * { box-sizing: border-box;} 
-
+@import url('https://fonts.googleapis.com/css?family=Lora');
 body { max-width: 100%;
   font-size: 16px;
-  font-family:'Helvetica','Arial', sans-serif; 
-
-}
-
+    font-family:'Helvetica','Arial', sans-serif;}
 header, nav, main, footer {
   max-width: 100% ; 
 }
@@ -23,6 +20,7 @@ a:link {
     text-decoration: none;
     
 }
+
 h1, h2 {
     font-family: 'Lora', serif;
     text-decoration: none;
