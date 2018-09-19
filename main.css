@@ -125,11 +125,14 @@ p a:hover {
     main {
         Margin-left: 22%;
         max-width: 78%;
+        margin-top: -7%;
     }
     
     nav {
         font-size: .85em;
     }
-    
+    article {
+        margin: 10%;
+    }
     
 }
